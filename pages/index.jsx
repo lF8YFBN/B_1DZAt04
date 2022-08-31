@@ -47,6 +47,7 @@ const Home = () => {
 
       const api_key = "zwS7T-_3cLybDi4TUQzO5msGechwJdg7"
       // const api_key = ""
+      // const api_key = ""
 
       const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${api_key}/getNFTsForCollection/`;
       const fetchURL = `${baseURL}?contractAddress=${collection}&withMetadata=${"true"}`;
